@@ -1,0 +1,60 @@
+---
+title: "Cherniss Gallagher HW5"
+author: "Carson Cherniss and Ainsley Gallagher"
+date: "2025-03-04"
+format: pdf
+---
+```{r loading-packages, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(data.table)
+
+```
+
+## 1: Use and show data.table code to select the variables year, month, day, and hour from the imported flights data
+```{r question 1}
+# R code  here
+
+```
+
+## 2: Use and show data. table code to produce a table that shows a carrier of DL, an origin of JFK and a destination of SEA
+```{r question 2}
+# R code  here
+
+```
+
+## 3: Use and show data.table code to produce a table that shows a carrier of UA, a month of March, and an airtime that is below 330.
+```{r question 3}
+# R code  here
+
+```
+
+## 4: Use and show tidyverse code to produce a table that shows a carrier of UA, a month of March, and an airtime that is below 330.
+```{r question 4}
+# R code  here
+
+```
+
+## 5: Use the data.table method to add a variable called speed that is the average air speed of the plane in miles per hour.
+```{r question 5}
+# R code  here
+
+```
+
+## 6: Use the tidyverse method to add a variable called speed that is the average air speed of the plane in miles per hour.
+```{r question 6}
+# R code  here
+
+```
+
+## 7: Show and use coding to change the carrier abbreviation of UA to UniitedAir,
+### 7a: data.table method
+```{r question 7a}
+# R code  here
+
+```
+
+### 7b: tidyverse method (Use a sequence of dplyr commands so that you can see the change in your table)
+```{r question 7b}
+# R code  here
+
+```
