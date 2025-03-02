@@ -17,11 +17,10 @@ flights2 <- read_csv("nycdata.csv")
 
 ## 1: Use and show data.table code to select the variables year, month, day, and hour from the imported flights data
 ```{r question 1}
-# R code  here
-
+flights1[, c("year", "month", "day", "hour")]
 ```
 
-## 2: Use and show data. table code to produce a table that shows a carrier of DL, an origin of JFK and a destination of SEA
+## 2: Use and show data.table code to produce a table that shows a carrier of DL, an origin of JFK and a destination of SEA
 ```{r question 2}
 # R code  here
 
