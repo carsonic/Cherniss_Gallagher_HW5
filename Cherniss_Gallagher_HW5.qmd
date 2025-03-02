@@ -1,5 +1,5 @@
 ---
-title: "Cherniss Gallagher HW5"
+title: "data.table Homework"
 author: "Carson Cherniss and Ainsley Gallagher"
 date: "2025-03-04"
 format: pdf
@@ -8,6 +8,11 @@ format: pdf
 library(tidyverse)
 library(data.table)
 
+```
+
+```{r loading-data, message=FALSE, warning=FALSE}
+flights1 <- fread("nycdata.csv")
+flights2 <- read_csv("nycdata.csv")
 ```
 
 ## 1: Use and show data.table code to select the variables year, month, day, and hour from the imported flights data
