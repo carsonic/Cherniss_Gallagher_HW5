@@ -22,8 +22,7 @@ flights1[, c("year", "month", "day", "hour")]
 
 ## 2: Use and show data.table code to produce a table that shows a carrier of DL, an origin of JFK and a destination of SEA
 ```{r question 2}
-# R code  here
-
+flights1[carrier == "DL" & origin == "JFK" & dest == "SEA", c("carrier","origin","dest")]
 ```
 
 ## 3: Use and show data.table code to produce a table that shows a carrier of UA, a month of March, and an airtime that is below 330.
